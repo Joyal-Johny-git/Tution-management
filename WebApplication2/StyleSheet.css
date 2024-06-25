@@ -1,0 +1,79 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: whitesmoke;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+.content .cards .card .box {
+    color: #444;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+
+h3, h4 {
+    color: #444;
+}
+
+p1 {
+    margin-left: 200px;
+}
+
+.content {
+    position: relative;
+    margin-top: 6vh;
+    min-height: 90vh;
+}
+
+    .content .cards {
+        padding: 2px 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+        .content .cards .card {
+            width: 168px;
+            background-color:lightcyan;
+            margin: 20px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            box-shadow: 0 4px 8px 0 rgba(0,0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 19);
+        }
+
+.container {
+    position: static;
+    right: 10px;
+    width: 76vw;
+    height: 30vh;
+    margin-left: 0px;
+    margin-top: 20PX;
+}
+
+    .container .header {
+        position: fixed;
+        top: 0;
+        right: 80vw;
+        width: 80vw;
+        height: 10vh;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px rgba(0,0,0,2);
+      
+    }
